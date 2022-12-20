@@ -1,0 +1,43 @@
+git and git hub repo:
+create new repo
+on the top right press the "+" button, and choose New repository. Give it a name and adjust the settings you want and press *Create repository.
+
+
+ steps- commands 
+
+
+
+touch.git ignore- to do not push the unwanted folder
+git config --global.user name shubham
+git config --global .email @gmail.com
+
+git init -- initalize the empty repo
+
+git add .
+
+git commit -m "inital commit"-  commit the file
+
+git status -  to check the status of file
+
+git remote to add origin git@github.com:shubh731/Loan_prediction_project.git ----- ssh path 
+
+add shh key path to for remote access
+
+git cat /c/Users/Shubham/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMnfs+b896M9rX2ZVJw/+L1z4tSBBGD85e+EPciyNaMe shubhamshinde731@gmail.com
+
+git push origin master
+all the file will be uploaded here
+
+to add new file in repo
+git status
+git add .
+git commit -m "added"
+
+git push origin master
+
+
+
+
+reference- https://www.youtube.com/watch?v=G14WMD8Kg3U
+ 
